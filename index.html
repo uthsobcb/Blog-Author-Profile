@@ -2,8 +2,6 @@
 <html>
   <head>
     <title>Prog Theta Author</title>
-  </head>
-  <body>
     <style>
       body {
         margin: 0;
@@ -12,30 +10,33 @@
         align-items: center;
         display: flex;
       }
+      .imgcont {
+        z-index: 1;
+        height: 10%;
+        width: 25%;
+        border-radius: 100%;
+        border: 2px solid rgb(54, 54, 54);
+        display: block;
+        display: block;
+        margin-top: 15px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+      }
     </style>
+  </head>
+  <body>
     <div class="container">
       <!-- Challange: We've to style in this single file -->
       <img
         src="https://robohash.org/roku"
         alt="author's profile"
-        style="
-          z-index: 1;
-          height: 40%;
-          width: 40%;
-          border-radius: 100%;
-          border: 2px solid rgb(54, 54, 54);
-          display: block;
-          display: block;
-          margin-top: 95px;
-          position: relative;
-          margin-left: auto;
-          margin-right: auto;
-        "
+        class="imgcont"
       />
       <h1 style="text-align: center">Author Name</h1>
       <p style="text-align: center">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
-        excepturi.
+        excepturi. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
       </p>
     </div>
   </body>
